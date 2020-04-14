@@ -29,6 +29,23 @@ export default {
       icon: 'icon-pencil',
     },
     {
+      name: 'Patients',
+      url: '/base',
+      icon: 'icon-pencil',
+      children: [
+        {
+          name: 'Listing',
+          url: '/patients',
+          icon: 'icon-puzzle',
+        },
+        {
+          name: 'New Record',
+          url: '/patient/create',
+          icon: 'icon-puzzle',
+        }
+      ]
+    },
+    {
       title: true,
       name: 'Components',
       wrapper: {
