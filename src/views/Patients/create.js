@@ -72,6 +72,7 @@ class Patients extends Component {
             this.setState({visible:true,err:error.response.data.error});
         })
     }
+    
 
     render() {
         return <div className="animated fadeIn">
